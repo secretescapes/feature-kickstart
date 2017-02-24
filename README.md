@@ -1,6 +1,9 @@
 # feature-kickstart
 Bash script that given a jira issue id, creates a git branch with an appropriate name and pushes it to origin
 
+#Prerequisite
+You need to first install jq (`apt-get install jq`)
+
 #Install
 * Download the script and place it in a directory that is included in your $PATH, like $HOME/bin
 
